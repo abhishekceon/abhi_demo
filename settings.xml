@@ -4,12 +4,12 @@
     <server>
       <id>abhi-app-release</id>
       <username>abhi-app-user</username>
-      <password>admin@123</password>
+      <password>Admin@123</password>
     </server>
     <server>
       <id>abhi-app-snapshot</id>
       <username>abhi-app-user</username>
-      <password>admin@123</password>
+      <password>Admin@123</password>
     </server>
   </servers>
 </settings>
