@@ -9,7 +9,7 @@ pipeline {
         stage('Build') {
             steps {
                 git 'https://github.com/abhishekceon/abhi_demo.git'
-                sh "mvn -Dmaven.test.failure.ignore=true clean install"
+                sh "mvn -Dmaven.test.failure.ignore=true -s settings.xml clean install"
             }
             post {
                 success {
